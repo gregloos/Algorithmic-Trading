@@ -23,3 +23,19 @@ logs/
 *.csv
 *.parquet
 *.h5
+
+# Ignore venvs
+.venv/
+arima-310/
+
+# Python junk
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code files
+.vscode/
